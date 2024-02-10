@@ -37,3 +37,40 @@ export const SKILLS = [
         ]
     }
 ]
+
+
+export const WORK_EXPERIENCE = [
+    {
+        title: "Fullstack Developer at Epahubb Consult",
+        date: "January 2023 - Present",
+        responsibilities: [
+            "Led a team of developers in the redesign of the company's flagship product, resulting in 30% increase in profit",
+            "Implemented advanced CSS animations and transitions to enhance teh overall user experience",
+            "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications",
+            "Introduced and integrated React.js into the tech stack, mporving code maintainability and development efficiency"
+        ]
+    },
+    
+    {
+        title: "Fullstack Developer at Epahubb Consult",
+        date: "January 2023 - Present",
+        responsibilities: [
+            "Led a team of developers in the redesign of the company's flagship product, resulting in 30% increase in profit",
+            "Implemented advanced CSS animations and transitions to enhance teh overall user experience",
+            "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications",
+            "Introduced and integrated React.js into the tech stack, mporving code maintainability and development efficiency"
+        ]
+    },
+    
+    {
+        title: "Fullstack Developer at Epahubb Consult",
+        date: "January 2023 - Present",
+        responsibilities: [
+            "Led a team of developers in the redesign of the company's flagship product, resulting in 30% increase in profit",
+            "Implemented advanced CSS animations and transitions to enhance teh overall user experience",
+            "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications",
+            "Introduced and integrated React.js into the tech stack, mporving code maintainability and development efficiency"
+        ]
+    },
+    
+]
