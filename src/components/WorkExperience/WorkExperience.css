@@ -20,19 +20,43 @@
     border: 1.5px solid #6751b9;
     background: #130f2a;
     position: absolute;
-    top: 55%;
+    top: 46%;
     z-index: 2;
     cursor: pointer;
 }
 
-.arrow-left span, .arrow-right span{
-    font-size: 2rem;
+.arrow-left span svg, .arrow-right span svg{
     font-weight: 500;
+    margin-top: 6px;
 }
 
 .arrow-left{
     right: -2rem;
 }
 .arrow-right{
-    right: -2rem;
+    left: -2rem;
+}
+
+
+@media (max-width: 1025px){
+    .arrow-left{
+        right: 0rem;
+    }
+    .arrow-right{
+        left: 0rem;
+    }
+}
+
+@media (max-width: 768px){
+    .experience-container h5{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .arrow-left{
+        right: -1rem;
+    }
+    .arrow-right{
+        left: -1rem;
+    }
 }
