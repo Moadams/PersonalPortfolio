@@ -1,15 +1,15 @@
 import React from 'react'
 import './ContactInfoCard.css'
 
-const ContactInfoCard = ({ icon, text}) => {
+const ContactInfoCard = ({ icon, text,link}) => {
   return (
     <div className="contact-details-card">
         <div className="icon">
             {icon}
         </div>
-        <p>
+        <a href={link}>
             {text}
-        </p>
+        </a>
     </div>
   )
 }

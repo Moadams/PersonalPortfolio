@@ -13,11 +13,13 @@ const ContactMe = () => {
             <div style={{flex: 1}}>
                 <ContactInfoCard 
                     icon={<MdOutlineEmail />}
+                    link="mailto:adamsmichael46@gmail.com"
                     text="adamsmichael46@gmail.com"
                 />
                 <ContactInfoCard 
                     icon={<FaGithub />}
-                    text="https://github.com/"
+                    link="https://github.com/Moadams"
+                    text="https://github.com/Moadams"
                     
                 />
             </div>

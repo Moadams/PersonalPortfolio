@@ -3,6 +3,8 @@ import './Hero.css'
 import Me from "../../assets/images/me.jpg"
 import ReactIcon from "../../assets/images/react.png"
 import Django from "../../assets/images/django.png"
+import JS from "../../assets/images/js.png"
+import HTML from "../../assets/images/html.png"
 
 const Hero = () => {
   return (
@@ -26,10 +28,10 @@ const Hero = () => {
                     <img src={Django} alt="react" />
                 </div>
                 <div className="tech-icon">
-                    <img src={ReactIcon} alt="react" />
+                    <img src={HTML} alt="react" />
                 </div>
                 <div className="tech-icon">
-                    <img src={ReactIcon} alt="react" />
+                    <img src={JS} alt="react" />
                 </div>
             </div>
         </div>
